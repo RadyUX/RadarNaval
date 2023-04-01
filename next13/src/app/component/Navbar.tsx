@@ -2,8 +2,6 @@
 
 
 import Link from 'next/link';
-import styles from '../style'
-import logo from "../../../public/logo.png"
 import { useState } from 'react';
 import '../globals.css'
 
@@ -18,23 +16,22 @@ const Navbar: React.FC = () => {
 
       <ul className="font-rubik list-none hidden sm:flex justify-end items-center space-x-[60px] flex-1 mr-10 text-white ">
           <li className="cursor-pointer text-[18px]   ">
-            <Link href="/carrier">
+            <Link href="/porte-avions">
               Porte-avions
             </Link>
           </li>
 
           <li className="cursor-pointer  text-[18px] ">
-            <Link href="/battleships">
+            <Link href="/navires">
              Cuirassés
             </Link>
           </li>
          
           <li className="cursor-pointer  text-[18px]">
-            <Link href="/cruisers">
+            <Link href="/croiseurs">
               Croiseurs
             </Link>
           </li>
-
           <li className="cursor-pointer  text-[18px]">
             <Link href="/destroyers">
            Destroyers
@@ -49,7 +46,7 @@ const Navbar: React.FC = () => {
 
       <li>
         <Link href="/register">
-         inscrire
+         sinscrire
         </Link>
       </li>
 

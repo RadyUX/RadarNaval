@@ -1,4 +1,5 @@
 ---
+slug: USS_Arizona
 title: USS Arizona (BB-39)
 type: Cuirassé
 date_mise_en_service: 1916-10-17
@@ -10,9 +11,6 @@ image_url: https://example.com/images/uss_arizona.jpg
 # USS Arizona (BB-39)
 
 L'USS Arizona (BB-39) était un cuirassé de classe Pennsylvania de la marine des États-Unis. Il a été nommé en l'honneur de l'État de l'Arizona.
-
-![USS Arizona](https://example.com/images/uss_arizona.jpg)
-
 ## Caractéristiques
 
 - **Classe :** Pennsylvania
