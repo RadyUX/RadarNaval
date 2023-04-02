@@ -15,14 +15,20 @@ const getPostContent = (slug: string) =>{
     return matterResult;
 }
 
+interface PostpageProps {
+  params: {
+    slug: string;
+  };
+}
 
 
-function Postpage(props: any) {
+function Postpage(props: PostpageProps) {
     const slug = props.params.slug
     const post = getPostContent(slug)
   return (
     <div>
     <h1>{post.data.title}</h1>
+    <h1>{post.data.type}</h1>
     <Markdown>{post.content}</Markdown>
     </div>
   )

@@ -26,3 +26,21 @@
 
 }
 
+@keyframes slideInUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.text-animation {
+  animation: slideInUp 0.5s ease-in-out;
+}
+
+.landing{
+  height: 80vh;
+}

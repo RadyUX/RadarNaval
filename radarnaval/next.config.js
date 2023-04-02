@@ -4,7 +4,7 @@ const nextConfig = {
     appDir: true,
   },
   images: {
-    domains: ["triple-9.fr"],
+    domains: ["triple-9.fr", "media-cldnry.s-nbcnews.com", "cdn.shopify.com" ],
   }
 }
 
