@@ -18,3 +18,11 @@
   font-family: 'Rubik';
   src: url('../../public/font/Rubik-VariableFont_wght.ttf') format('truetype');
 }
+
+.text-gradient {
+  background: linear-gradient(to right, #0d47a1, #2196f3, #0d47a1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+

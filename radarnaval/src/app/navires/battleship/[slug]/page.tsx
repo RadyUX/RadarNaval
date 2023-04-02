@@ -1,7 +1,7 @@
+
 import Markdown from 'markdown-to-jsx'
 import fs from 'fs'
 import matter from 'gray-matter'
-
 
 
 const getPostContent = (slug: string) =>{
