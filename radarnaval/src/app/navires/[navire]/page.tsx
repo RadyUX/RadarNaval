@@ -20,6 +20,7 @@ import { Metadata } from 'next'
 */
 
 
+// This is the function that Next.js will call to generate the static pages
 export async function generateStaticParams(){
   return allTypes.map((type) =>({
     navire: type.navire

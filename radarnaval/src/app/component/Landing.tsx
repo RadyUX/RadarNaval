@@ -18,7 +18,7 @@ const LandingPage: React.FC = () => {
           <h1 className={`${styles.heading2}font-bold text-gradient text-animation`}>Bienvenue sur Radar Naval</h1>
           <p className="py-3 text-4xl text-white text-animation">Le site Wiki des navires de guerre</p>
           <Link href="/navires">
-             Voir les navires
+             (barre de navigation)
           
           </Link>
         </div>
