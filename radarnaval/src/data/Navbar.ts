@@ -13,7 +13,7 @@ const navItems = {
     '/navires/destroyer': {
       name: 'destroyers 🚀',
     },
-    '/login': {
+    '/auth': {
       name: 'se connecter 📡',
     },
   };

@@ -1,7 +1,7 @@
 ---
 slug: USS_Arizona
 title: USS Arizona (BB-39)
-type: battleship
+navire: battleship
 date_mise_en_service: 1916-10-17
 date_retirement: 1941-12-07
 pays_origine: États-Unis

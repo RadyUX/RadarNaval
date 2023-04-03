@@ -1,7 +1,7 @@
 ---
 slug: USS_Intrepid
 title: USS Intrepid (CV-11)
-type: carrier
+navire: carrier
 date_mise_en_service: 1943-08-16
 date_retirement: 1974-03-15
 pays_origine: États-Unis

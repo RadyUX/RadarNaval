@@ -1,7 +1,7 @@
 ---
 slug: Yamato
 title: Yamato
-type: battleship
+navire: battleship
 date_mise_en_service: 1941-12-16
 date_retirement: 1945-04-07
 pays_origine: Japon

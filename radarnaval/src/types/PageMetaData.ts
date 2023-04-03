@@ -1,7 +1,7 @@
 export interface PageMetaData {
     slug: string;
     title: string,
-    type: string,
+    navire: string,
     date_mise_en_service: string,
     date_retirement: string,
     pays_origine: string,

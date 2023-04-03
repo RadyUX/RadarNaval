@@ -1,7 +1,7 @@
 ---
 slug: HMS_Hood
 title: HMS Hood
-type: battlecruiser
+navire: battlecruiser
 date_mise_en_service: 1920-03-15
 date_retirement: 1941-05-24
 pays_origine: Royaume-Uni

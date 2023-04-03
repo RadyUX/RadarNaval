@@ -18,7 +18,7 @@ const getPageData = (): PageMetaData[] =>{
         return {
             slug: filename.replace('.md', ''),
             title: matterResult.data.title,
-            type: matterResult.data.type,
+            navire: matterResult.data.navire,
             date_mise_en_service: matterResult.data.date_mise_en_service,
             date_retirement: matterResult.data.date_retirement,
             pays_origine: matterResult.data.pays_origine,
