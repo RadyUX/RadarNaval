@@ -14,6 +14,7 @@ specifiers:
   next: 13.2.4
   next-contentlayer: ^0.3.1
   postcss: ^8.4.21
+  prisma: ^4.12.0
   react: 18.2.0
   react-dom: 18.2.0
   react-icons: ^4.8.0
@@ -44,6 +45,7 @@ dependencies:
 devDependencies:
   autoprefixer: 10.4.14_postcss@8.4.21
   postcss: 8.4.21
+  prisma: 4.12.0
   tailwindcss: 3.3.1_postcss@8.4.21
 
 packages:
@@ -897,6 +899,11 @@ packages:
       tiny-glob: 0.2.9
       tslib: 2.5.0
     dev: false
+
+  /@prisma/engines/4.12.0:
+    resolution: {integrity: sha512-0alKtnxhNB5hYU+ymESBlGI4b9XrGGSdv7Ud+8TE/fBNOEhIud0XQsAR+TrvUZgS4na5czubiMsODw0TUrgkIA==}
+    requiresBuild: true
+    dev: true
 
   /@protobufjs/aspromise/1.1.2:
     resolution: {integrity: sha512-j+gKExEuLmKwvz3OgROXtrJ2UG2x8Ch2YZUxahh+s1F2HZ+wAceUNLkvy6zKCPVRkU++ZWQrdxsUeQXmcg4uoQ==}
@@ -3751,6 +3758,15 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
     dev: false
+
+  /prisma/4.12.0:
+    resolution: {integrity: sha512-xqVper4mbwl32BWzLpdznHAYvYDWQQWK2tBfXjdUD397XaveRyAP7SkBZ6kFlIg8kKayF4hvuaVtYwXd9BodAg==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+    requiresBuild: true
+    dependencies:
+      '@prisma/engines': 4.12.0
+    dev: true
 
   /prop-types/15.8.1:
     resolution: {integrity: sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==}

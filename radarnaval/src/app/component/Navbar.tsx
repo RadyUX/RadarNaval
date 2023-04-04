@@ -6,6 +6,7 @@ import styles from '../style'
 import navItems from '@/data/Navbar';
 import { useState } from 'react';
 import '../globals.css'
+import Search from './Search';
 
 const Navbar: React.FC = () => {
     const [userRole, setUserRole] = useState<'admin' | 'user' | null>(null);
@@ -13,28 +14,29 @@ const Navbar: React.FC = () => {
     
   return (
     <nav className="flex items-center justify-between w-full px-10 py-8 bg-primary navbar">
-    <Link href="/">
-        <div className="text-white font-rubik text-[18px] ">
-          📡<span className='text-[24px]'>R</span>ADAR<span className='text-[24px]'>N</span>AVAL📡
-        </div>
-      </Link>
+  <Link href="/">
+    <div className="text-white font-rubik text-[18px]">
+      📡<span className='text-[24px]'>R</span>ADAR<span className='text-[24px]'>N</span>AVAL📡
+    </div>
+  </Link>
 
-      <ul className="font-rubik list-none hidden sm:flex justify-end items-center space-x-[60px] flex-1 mr-10 text-white ">
-          {
-             Object.entries(navItems).map(([path, {name}]) =>{
-              return(
-                <Link key={path}
-                href={path}
-                >
-                  {name}
-                </Link>
-              )
-             })
-          }
+  <div className="justify-center hidden mx-16 sm:flex">
+    <Search />
+  </div>
 
-        </ul>
-     
-    </nav>
+  <ul className="font-rubik list-none hidden sm:flex justify-end items-center space-x-[60px] flex-1 mr-10 text-white">
+    {Object.entries(navItems).map(([path, { name }]) => {
+      return (
+        <Link key={path} href={path}>
+          {name}
+        </Link>
+      );
+    })}
+  </ul>
+
+ 
+</nav>
+
   );
 };
 
