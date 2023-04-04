@@ -66,6 +66,18 @@ function NavirePage({ params }: pageProps) {
           <p className="py-3 text-4xl text-white text-animation">{page.title}</p>
          
         </div>
+
+        <div className="max-w-6xl px-4 mx-auto sm:px-6 lg:px-8">
+      <div className="text-center">
+        <p className="mt-4 text-lg text-gray-500">
+        {page.desc}
+        </p>
+      </div>
+      <div className="mt-20">
+      <div className="cl-post-body" dangerouslySetInnerHTML={{ __html: page.body.html }} />
+      </div>
+  
+    </div>
   
   </div>
 )

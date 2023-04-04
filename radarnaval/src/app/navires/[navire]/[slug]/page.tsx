@@ -24,21 +24,6 @@ export async function generateMetaData({
 
 
 
-// fonction qui recupere le contenu de la page specifique au slug
-/*const getPostContent = (slug: string) =>{
-    const folder = 'content/navires/'
-    const file = `${folder}${slug}.md`
-    //get file
-
-    //get content
-    const content = fs.readFileSync(file, 'utf-8')
-    const matterResult = matter(content)
-    return matterResult;
-}
-
-
-}
-*/
 
 interface PostpageProps {
   params: {
@@ -62,3 +47,19 @@ function Postpage({ params }: PostpageProps) {
 }
 
 export default Postpage
+
+// fonction qui recupere le contenu de la page specifique au slug
+/*const getPostContent = (slug: string) =>{
+    const folder = 'content/navires/'
+    const file = `${folder}${slug}.md`
+    //get file
+
+    //get content
+    const content = fs.readFileSync(file, 'utf-8')
+    const matterResult = matter(content)
+    return matterResult;
+}
+
+
+}
+*/
