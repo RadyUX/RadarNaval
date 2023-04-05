@@ -5,7 +5,7 @@ navire: battlecruiser
 date_mise_en_service: 1920-03-15
 date_retirement: 1941-05-24
 pays_origine: Royaume-Uni
-image_url: https://triple-9.fr/wp-content/uploads/2016/05/Yamato.jpg
+image_url: https://ww2db.com/images/ship_hood16.jpg
 ---
 
 # HMS Hood

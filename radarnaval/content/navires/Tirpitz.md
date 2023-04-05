@@ -5,7 +5,7 @@ navire: Cuirassé
 date_mise_en_service: 1941-02-25
 date_retirement: 1944-11-12
 pays_origine: Allemagne
-image_url: https://triple-9.fr/wp-content/uploads/2016/05/Yamato.jpg
+image_url: https://ww2db.com/images/ship_tirpitz2.jpg
 ---
 
 # Tirpitz

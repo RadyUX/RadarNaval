@@ -9,6 +9,6 @@ module.exports = withContentlayer({
     appDir: true,
   },
   images: {
-    domains: ["triple-9.fr", "media-cldnry.s-nbcnews.com", "cdn.shopify.com", "assets.meretmarine.com", "upload.wikimedia.org"],
+    domains: ["triple-9.fr", "media-cldnry.s-nbcnews.com", "cdn.shopify.com", "assets.meretmarine.com", "upload.wikimedia.org", "ww2db.com"],
   },
 })

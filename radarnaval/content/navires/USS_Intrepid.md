@@ -5,7 +5,7 @@ navire: carrier
 date_mise_en_service: 1943-08-16
 date_retirement: 1974-03-15
 pays_origine: États-Unis
-image_url: https://triple-9.fr/wp-content/uploads/2016/05/Yamato.jpg
+image_url: https://ww2db.com/images/ship_intrepid2.jpg
 ---
 
 # USS Intrepid (CV-11)

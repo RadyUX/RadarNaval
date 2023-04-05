@@ -5,7 +5,7 @@ navire: battleship
 date_mise_en_service: 1916-10-17
 date_retirement: 1941-12-07
 pays_origine: États-Unis
-image_url: https://triple-9.fr/wp-content/uploads/2016/05/Yamato.jpg
+image_url: https://ww2db.com/images/ship_arizona17.jpg
 ---
 
 # USS Arizona (BB-39)

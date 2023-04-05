@@ -5,7 +5,7 @@ navire: battleship
 date_mise_en_service: 1941-12-16
 date_retirement: 1945-04-07
 pays_origine: Japon
-image_url: https://triple-9.fr/wp-content/uploads/2016/05/Yamato.jpg
+image_url: https://ww2db.com/images/ship_yamato27.jpg
 ---
 
 # Yamato
