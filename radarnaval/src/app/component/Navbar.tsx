@@ -7,6 +7,8 @@ import navItems from '@/data/Navbar';
 import { useState } from 'react';
 import '../globals.css'
 import Search from './Search';
+import { allNavires } from 'contentlayer/generated';
+
 
 const Navbar: React.FC = () => {
     const [userRole, setUserRole] = useState<'admin' | 'user' | null>(null);
@@ -21,7 +23,7 @@ const Navbar: React.FC = () => {
   </Link>
 
   <div className="justify-center hidden mx-16 sm:flex">
-    <Search />
+    <Search data={allNavires} />
   </div>
 
   <ul className="font-rubik list-none hidden sm:flex justify-end items-center space-x-[60px] flex-1 mr-10 text-white">

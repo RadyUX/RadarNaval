@@ -34,6 +34,9 @@ interface PostpageProps {
 function Postpage({ params }: PostpageProps) {
   
   const page = allNavires.find((page) => page.slug === params.slug)
+  if(!page){
+    return <div>NOT FOUND</div>
+  }
   return (
     <div className='flex-col items-center justify-center'>
     <h1 className='mx-auto text-4xl font-bold text-gradient'>{page.title}</h1>

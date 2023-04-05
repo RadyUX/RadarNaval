@@ -7,6 +7,7 @@ import LandingPage from './component/Landing'
 import { allNavires } from 'contentlayer/generated'
 import About from './component/About'
 import Footer from './component/Footer'
+import Head from 'next/head'
 
 
 export default function Home() {
@@ -17,6 +18,9 @@ export default function Home() {
   ))
   return (
     <>
+    <Head>
+        <link rel="icon" href="../../public/logo.ico" />
+      </Head>
     <LandingPage />
     <section className='py-1'>
     <div className="flex-col items-center w-full px-5 mx-auto text-center sm:px-6 lg:px-8">

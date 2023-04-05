@@ -5,7 +5,32 @@ generator client {
   provider = "prisma-client-js"
 }
 
+
 datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
+}
+
+
+
+
+model Navire {
+  id                Int       @id @default(autoincrement())
+  slug              String    @unique
+  title             String
+  navire            String
+  date_mise_en_service  DateTime
+  date_retirement       DateTime
+  pays_origine      String
+  image_url         String
+  admin             Admin?    @relation(fields: [adminId], references: [id])
+  adminId           Int?
+}
+
+
+model Admin {
+  id       Int     @id @default(autoincrement())
+  email    String  @unique
+  password String
+  navires  Navire[]
 }

@@ -52,6 +52,9 @@ function NavirePage({ params }: pageProps) {
   
   const page = allTypes.find((page) => page.navire === params.navire)
  
+  if(!page){
+    return <div>NOT FOUND</div>
+  }
   return (
   <div>
   
