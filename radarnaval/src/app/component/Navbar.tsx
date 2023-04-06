@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
 
     
   return (
-    <nav className="flex items-center justify-between w-full px-10 py-8 bg-primary navbar">
+    <nav className="z-10 flex items-center justify-between w-full px-10 py-8 bg-primary navbar">
   <Link href="/">
     <div className="text-white font-rubik text-[18px]">
       📡<span className='text-[24px]'>R</span>ADAR<span className='text-[24px]'>N</span>AVAL📡
