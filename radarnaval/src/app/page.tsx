@@ -22,7 +22,7 @@ export default function Home() {
         <link rel="icon" href="../../public/logo.ico" />
       </Head>
     <LandingPage />
-    <section className='py-1'>
+    <section className='py-1 bg-gray-100'>
     <div className="flex-col items-center w-full px-5 mx-auto text-center sm:px-6 lg:px-8">
       <h1 className='py-4 text-4xl'>Last added</h1>
       <div  className="grid grid-cols-1 gap-6 my-6 sm:grid-cols-2 lg:grid-cols-5">

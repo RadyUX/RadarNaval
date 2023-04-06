@@ -6,7 +6,7 @@ function About() {
     <section className="py-16 bg-gray-100">
     <div className="max-w-6xl px-4 mx-auto sm:px-6 lg:px-8">
       <div className="text-center">
-        <h2 className="text-3xl font-bold text-gradient sm:text-8xl">À propos</h2>
+        <h2 className="text-3xl font-bold text-gradient sm:text-5xl">À propos</h2>
         <p className="mt-4 text-lg text-gray-500">
           Site wikipédia 
         </p>

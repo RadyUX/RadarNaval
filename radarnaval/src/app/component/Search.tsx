@@ -3,18 +3,25 @@
 import { useRouter } from 'next/navigation';
 import { FaSearch } from 'react-icons/fa';
 import { FaAnchor } from 'react-icons/fa';
-import { useState } from 'react'; 
+import { useEffect, useState } from 'react'; 
 import { Navire } from 'contentlayer/generated';
+
 
 const Search : React.FC<{ data: Navire[]}> = ({data}): JSX.Element => {
     const [filtereData, setFilteredData] = useState<Navire[]>([])
     const [value, setValue] = useState<string>('')
     const router = useRouter();
 
-    const handleFilter = ({
-        target,
-      }: React.ChangeEvent<HTMLInputElement>): void => {
-        const searchWord: string = target.value.toLowerCase();
+
+
+    const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
+        if (event.key === 'Enter') {
+          handleFilter();
+        }
+      };
+    
+    const handleFilter = (): void => {
+        const searchWord: string = value.toLowerCase();
         setValue(searchWord);
 
         const newFilter: Navire[] = data.filter(({ title }): boolean =>
@@ -31,6 +38,8 @@ const Search : React.FC<{ data: Navire[]}> = ({data}): JSX.Element => {
 
       }
 
+  
+    
       
 
   return (
@@ -45,7 +54,8 @@ const Search : React.FC<{ data: Navire[]}> = ({data}): JSX.Element => {
               placeholder="Rechercher un bateau"
               className="py-2 pl-5 pr-8 leading-tight text-gray-700 bg-white border-2 border-gray-300 rounded-full focus:outline-none focus:bg-white focus:border-blue-500"
               value={value}
-              onChange={handleFilter}
+              onChange={(e) => setValue(e.target.value)}
+              onKeyDown={handleKeyDown}
               
             />
             <div className="absolute top-0 right-0 mt-3 mr-3">

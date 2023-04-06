@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@types/lodash': ^4.14.192
   '@types/node': 18.15.11
   '@types/react': 18.0.31
   '@types/react-dom': 18.0.11
@@ -10,6 +11,7 @@ specifiers:
   eslint: 8.37.0
   eslint-config-next: 13.2.4
   gray-matter: ^4.0.3
+  lodash: ^4.17.21
   markdown-to-jsx: ^7.2.0
   next: 13.2.4
   next-contentlayer: ^0.3.1
@@ -24,6 +26,7 @@ specifiers:
   typescript: 5.0.3
 
 dependencies:
+  '@types/lodash': 4.14.192
   '@types/node': 18.15.11
   '@types/react': 18.0.31
   '@types/react-dom': 18.0.11
@@ -32,6 +35,7 @@ dependencies:
   eslint: 8.37.0
   eslint-config-next: 13.2.4_vwh6htx42aidho2qgfca5u5rwm
   gray-matter: 4.0.3
+  lodash: 4.17.21
   markdown-to-jsx: 7.2.0_react@18.2.0
   next: 13.2.4_biqbaboplfbrettd7655fr4n2y
   next-contentlayer: 0.3.1_ld2jel3hspngo3u5lti2kgl2sq
@@ -988,6 +992,10 @@ packages:
 
   /@types/json5/0.0.29:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
+    dev: false
+
+  /@types/lodash/4.14.192:
+    resolution: {integrity: sha512-km+Vyn3BYm5ytMO13k9KTp27O75rbQ0NFw+U//g+PX7VZyjCioXaRFisqSIJRECljcTv73G3i6BpglNGHgUQ5A==}
     dev: false
 
   /@types/long/4.0.2:
@@ -2861,6 +2869,10 @@ packages:
 
   /lodash.merge/4.6.2:
     resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}
+    dev: false
+
+  /lodash/4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
     dev: false
 
   /long/4.0.0:
