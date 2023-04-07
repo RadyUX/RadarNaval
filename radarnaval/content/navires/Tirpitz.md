@@ -1,7 +1,7 @@
 ---
 slug: tirpitz
 title: Tirpitz
-navire: Cuirassé
+navire: battleship 
 date_mise_en_service: 1941-02-25
 date_retirement: 1944-11-12
 pays_origine: Allemagne

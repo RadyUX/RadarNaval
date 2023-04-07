@@ -1,7 +1,7 @@
 ---
 slug: yukikaze
 title: Yukikaze
-navire: Destroyer
+navire: destroyer
 date_mise_en_service: 1940-08-20
 date_retirement: 1970-03-31
 pays_origine: Japon
