@@ -32,6 +32,8 @@ const Search : React.FC<{ data: Navire[]}> = ({data}): JSX.Element => {
         setFilteredData([]);
       } else if (newFilter.length === 1) {
         router.push(`/navires/${newFilter[0].navire}/${newFilter[0].slug}`);
+      } else if(newFilter.length === 0){
+        router.push(`/not-found?query=${searchWord}`);
       } else {
         setFilteredData(newFilter);
       }
